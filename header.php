@@ -13,13 +13,11 @@
     <!-- Adding color choice class for easy styling -->
     <div class="header-nav <?php get_field("header_color", "option") ?>">
         <!-- Adding ACF color picker choice for admin in options page -->
-        <a class="header-link" href="<?php site_url(); ?>">
+        <a class="header-link" href="<?php echo site_url(); ?>">
 
             <h3 class="site-header">
                 <!-- Creating a tag so user can go back to start page -->
-
-                <!-- NEED TO CHANGE TO CORRECT VERSION -->
-                <?php the_title(); ?>
+                <?= get_bloginfo("name"); ?>
 
             </h3>
         </a>

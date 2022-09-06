@@ -76,6 +76,15 @@ body.green a.header-link {
 .the-content h3 {
 }
 
+.the-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  width: 65%;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .the-content p {
   color: gray;
 }
