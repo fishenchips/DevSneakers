@@ -10,12 +10,15 @@
 
 <body <?php body_class(); ?>>
 
-    <div class="header-nav">
+    <!-- Adding color choice class for easy styling -->
+    <div class="header-nav <?php get_field("header_color", "option") ?>">
         <!-- Adding ACF color picker choice for admin in options page -->
-        <a href="<?php site_url(); ?>">
+        <a class="header-link" href="<?php site_url(); ?>">
 
-            <h3 class="site-header" style="color: <?php the_field("header_name_color", "option"); ?> ">
+            <h3 class="site-header">
                 <!-- Creating a tag so user can go back to start page -->
+
+                <!-- NEED TO CHANGE TO CORRECT VERSION -->
                 <?php the_title(); ?>
 
             </h3>
@@ -25,6 +28,8 @@
         </nav>
 
         <!-- FRÅGA HUR MAN NÅR A-taggen här, ingen klass kan man köra Li active? -->
+
+        <!-- CREATE  -->
     </div>
 
     <?php wp_body_open(); ?>

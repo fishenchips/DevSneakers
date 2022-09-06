@@ -18,3 +18,13 @@ if (function_exists('acf_add_options_page')) {
 
     acf_add_options_page();
 }
+
+/* Ads class to body tag */
+add_filter('body_class', 'my_body_classes');
+function my_body_classes($classes)
+{
+
+    $classes[] = get_field("header_color", "option");
+
+    return $classes;
+}

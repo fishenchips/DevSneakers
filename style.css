@@ -57,15 +57,25 @@ body {
 
 a {
   text-decoration: none;
-}
-
-a:link {
-  color: black;
-}
-a:visited {
   color: black;
 }
 
-a:active {
-  color: rgb(0, 255, 247);
+/* if body has a class blue current meny item and header link should have same color */
+body.blue .current-menu-item a,
+body.blue a.header-link {
+  color: blue;
+}
+
+/* if body has a class green current meny item and header link should have same color */
+body.green .current-menu-item a,
+body.green a.header-link {
+  color: green;
+}
+
+/* Giving specific style to h3 tags on pages */
+.the-content h3 {
+}
+
+.the-content p {
+  color: gray;
 }
