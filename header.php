@@ -12,9 +12,14 @@
 
     <div class="header-nav">
         <!-- Adding ACF color picker choice for admin in options page -->
-        <h3 class="site-header" style="color: <?php the_field("header_name_color", "option"); ?> ">
-            <?php the_title(); ?>
-        </h3>
+        <a href="<?php site_url(); ?>">
+
+            <h3 class="site-header" style="color: <?php the_field("header_name_color", "option"); ?> ">
+                <!-- Creating a tag so user can go back to start page -->
+                <?php the_title(); ?>
+
+            </h3>
+        </a>
         <nav>
             <?php wp_nav_menu(array("theme_location" => "header-menu"));  ?>
         </nav>
