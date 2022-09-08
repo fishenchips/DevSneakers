@@ -11,6 +11,7 @@ get_header(); ?>
     <?php the_post_thumbnail("full", array("class" => "product-img")); ?>
 </div>
 
-<?php the_content(); ?>
+<!-- the_content(); with styling -->
+<?php get_template_part("the-content"); ?>
 
 <?php get_footer();

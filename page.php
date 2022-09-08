@@ -6,11 +6,7 @@
     <h2 class="test">test</h2>
 </div>
 
-<div class="the-content">
-    <p>
-        <?php the_content(); ?>
-    </p>
-</div>
+<?php get_template_part("the-content"); ?>
 
 
 <?php
