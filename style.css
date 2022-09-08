@@ -23,11 +23,20 @@ body {
 
 .header-nav {
   display: flex;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.header-nav h3 {
+  font-size: 150%;
 }
 
 #menu-headermeny {
   display: flex;
+  justify-content: space-around;
+  width: 40rem;
   list-style: none;
+  margin-left: 4rem;
 }
 
 .hero-div {
@@ -75,7 +84,7 @@ body.green a.header-link {
 .the-content {
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 75%;
   align-items: center;
   margin: 0 auto;
 }
@@ -110,12 +119,16 @@ body.green a.header-link {
   z-index: 10;
 }
 
+.wpforms-field-medium {
+  width: 20rem;
+  max-width: none;
+}
+
 /* trying to style the video, to make is wider */
-.wp-block-embed {
-  width: 500rem;
+/* .wp-block-embed {
   display: flex;
   justify-content: center;
-}
+} */
 
 .footer,
 .footer p {
