@@ -72,10 +72,6 @@ body.green a.header-link {
   color: green;
 }
 
-/* Giving specific style to h3 tags on pages */
-.the-content h3 {
-}
-
 .the-content {
   display: flex;
   flex-direction: column;
@@ -87,6 +83,32 @@ body.green a.header-link {
 
 .the-content p {
   color: gray;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.product-page {
+  width: 70%;
+  height: 75vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .footer,
