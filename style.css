@@ -136,11 +136,16 @@ body.green .wp-block-button__link {
 }
 
 /* trying to style the video, to make is wider */
-/* .wp-block-embed {
-  display: flex;
-  justify-content: center;
-} */
+.wp-block-embed {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  width: 90%;
+}
 
+.wp-block-embed iframe {
+  max-width: none;
+  width: 100%;
+}
 .footer,
 .footer p {
   display: flex;
