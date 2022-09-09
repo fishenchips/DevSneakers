@@ -19,6 +19,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 
 body {
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .header-nav {
@@ -79,6 +80,16 @@ body.blue a.header-link {
 body.green .current-menu-item a,
 body.green a.header-link {
   color: green;
+}
+
+body.blue .wp-block-button__link {
+  background-color: blue;
+  border-radius: 0;
+}
+
+body.green .wp-block-button__link {
+  background-color: green;
+  border-radius: 0;
 }
 
 .the-content {
