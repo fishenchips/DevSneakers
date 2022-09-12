@@ -1,5 +1,6 @@
+<!-- fråga om denna rad -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <div>
+    <div class="news-div">
         <div>
             <p>
                 <?php the_post_thumbnail("thumbnail"); ?>
