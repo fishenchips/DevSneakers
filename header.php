@@ -24,10 +24,6 @@
         <nav>
             <?php wp_nav_menu(array("theme_location" => "header-menu"));  ?>
         </nav>
-
-        <!-- FRÅGA HUR MAN NÅR A-taggen här, ingen klass kan man köra Li active? -->
-
-        <!-- CREATE  -->
     </div>
 
     <?php wp_body_open(); ?>

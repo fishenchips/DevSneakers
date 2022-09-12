@@ -49,3 +49,10 @@ function my_acf_init_block_types()
         ));
     }
 }
+
+/* changing length of the_excerpt(); */
+function mytheme_custom_excerpt_length($length)
+{
+    return 8;
+}
+add_filter('excerpt_length', 'mytheme_custom_excerpt_length', 999);

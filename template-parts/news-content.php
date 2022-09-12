@@ -1,23 +1,22 @@
 <!-- fråga om denna rad -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <div class="news-div">
-        <div>
-            <p>
+    <a href="<?php the_permalink(); ?>">
+        <div class="news-div">
+            <div class="news-img-div">
                 <?php the_post_thumbnail("thumbnail"); ?>
-            </p>
-        </div>
-        <div>
+            </div>
             <div>
-                <h2 class="entry-title">
-                    <a href="<?php the_permalink(); ?>">
+                <div class="news-text-div">
+                    <h4 class="entry-title">
                         <?php the_title(); ?>
-                    </a>
-                </h2>
-                <i><?php the_date(); ?></i>
-            </div>
-            <div>
-                <?php the_excerpt(); ?>
-
+                    </h4>
+                    <strong><?php the_date(); ?></strong>
+                </div>
+                <div>
+                    <?php the_excerpt(); ?>
+                </div>
             </div>
         </div>
-    </div>
+    </a>
+
+</article>

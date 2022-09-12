@@ -1,4 +1,5 @@
 <div class="news-block">
+    <h3>Nyheter</h3>
     <ul>
         <!-- loading news content -->
         <?php $news =  new WP_Query("posts_per_page=4"); ?>
