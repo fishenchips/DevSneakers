@@ -163,11 +163,13 @@ body.green #wpforms-form-49 button {
   margin-inline-start: 0;
   margin-inline-end: 0;
   width: 90%;
+  height: 60vh;
 }
 
 .wp-block-embed iframe {
   max-width: none;
   width: 100%;
+  height: 60vh;
 }
 
 .news-block {
