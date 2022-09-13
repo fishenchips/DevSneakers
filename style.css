@@ -152,6 +152,7 @@ body.green .wp-block-button__link {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .news-block ul {
@@ -206,5 +207,4 @@ body.green .wp-block-button__link {
   width: 100%;
   height: 10vh;
   font-size: small;
-  margin-top: 5rem;
 }
