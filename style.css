@@ -158,7 +158,7 @@ body.green .wp-block-button__link {
   display: flex;
   flex-direction: row;
   height: 20vh;
-  font-size: x-small;
+  font-size: xx-small;
 }
 
 .news-div {
@@ -167,7 +167,6 @@ body.green .wp-block-button__link {
   justify-content: center;
   align-items: center;
   width: 75%;
-  height: 10rem;
 }
 
 .news-img-div {
@@ -183,6 +182,20 @@ body.green .wp-block-button__link {
   mix-blend-mode: multiply;
 }
 
+.news-text-div {
+  height: 8rem;
+}
+
+.news-text-div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-text-div div > p {
+  text-align: center;
+}
+
 .footer,
 .footer p {
   display: flex;
@@ -193,5 +206,5 @@ body.green .wp-block-button__link {
   width: 100%;
   height: 10vh;
   font-size: small;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }

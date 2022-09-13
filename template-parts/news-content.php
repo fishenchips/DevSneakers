@@ -5,12 +5,12 @@
             <div class="news-img-div">
                 <?php the_post_thumbnail("thumbnail"); ?>
             </div>
-            <div>
-                <div class="news-text-div">
+            <div class="news-text-div">
+                <div>
                     <h4 class="entry-title">
                         <?php the_title(); ?>
                     </h4>
-                    <strong><?php the_date(); ?></strong>
+                    <strong><?php the_time(get_option('date_format'));; ?></strong>
                 </div>
                 <div>
                     <?php the_excerpt(); ?>
