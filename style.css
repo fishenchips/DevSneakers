@@ -73,22 +73,22 @@ a {
 /* if body has a class blue current meny item and header link should have same color */
 body.blue .current-menu-item a,
 body.blue a.header-link {
-  color: blue;
+  color: rgb(58, 58, 229);
 }
 
 /* if body has a class green current meny item and header link should have same color */
 body.green .current-menu-item a,
 body.green a.header-link {
-  color: green;
+  color: rgb(138, 154, 91);
 }
 
 body.blue .wp-block-button__link {
-  background-color: blue;
+  background-color: rgb(58, 58, 229);
   border-radius: 0;
 }
 
 body.green .wp-block-button__link {
-  background-color: green;
+  background-color: rgb(138, 154, 91);
   border-radius: 0;
 }
 
@@ -130,8 +130,31 @@ body.green .wp-block-button__link {
   z-index: 10;
 }
 
+#wpforms-form-49 {
+  width: 40vw;
+}
+
+#wpforms-form-49 input,
+#wpforms-form-49 textarea {
+  background-color: rgb(240, 249, 252);
+}
+
+body #wpforms-form-49 button {
+  position: relative;
+  float: right;
+  color: white;
+  border-radius: 5px;
+}
+
+body.blue #wpforms-form-49 button {
+  background-color: rgb(58, 58, 229);
+}
+
+body.green #wpforms-form-49 button {
+  background-color: rgb(138, 154, 91);
+}
+
 .wpforms-field-medium {
-  width: 20rem;
   max-width: none;
 }
 
