@@ -1,7 +1,8 @@
 <?php get_header(); ?>
-<h2> <?php wp_title(); ?> </h2>
+<h2 class="index-title">
+    <?php wp_title(); ?>
+</h2>
 <div class="posts">
-
     <?php if (have_posts()) :
         while (have_posts()) : the_post(); ?>
             <div class="post-block">

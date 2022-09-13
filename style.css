@@ -220,6 +220,54 @@ body.green #wpforms-form-49 button {
   text-align: center;
 }
 
+.index-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.index-post {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 3rem;
+  width: 40%;
+}
+
+.index-img {
+  height: 30vh;
+  width: 20vw;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-img img {
+  mix-blend-mode: multiply;
+}
+
+.index-text {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.index-post-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-post-title strong {
+  font-size: 75%;
+}
+
+.index-excerpt {
+  font-size: 75%;
+  color: gray;
+}
+
 .footer,
 .footer p {
   display: flex;
