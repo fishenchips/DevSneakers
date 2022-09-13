@@ -268,6 +268,54 @@ body.green #wpforms-form-49 button {
   color: gray;
 }
 
+.single-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.single-img {
+  height: 50vh;
+  width: 50vw;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.single-img img {
+  mix-blend-mode: multiply;
+}
+
+.single-date {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: smaller;
+  margin-bottom: 3rem;
+}
+
+.single-content {
+  text-align: center;
+  color: gray;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  width: 50%;
+}
+
+.single-link {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+body.blue .single-link a {
+  color: rgb(58, 58, 229);
+}
+
+body.green .single-link a {
+  color: rgb(138, 154, 91);
+}
+
 .footer,
 .footer p {
   display: flex;
